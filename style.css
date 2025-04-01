@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav {
+  background-color: navy;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.section1 {
+  background-color: lightgreen;
+}
+
+.section2 {
+  background-color: lightyellow;
+}
+
+.section3 {
+  background-color: lightpink;
+}
+
+.section1 h2 {
+  color: darkgreen;
+  font-size: 24px;
+}
+
+.section2 h2 {
+  color: darkgoldenrod;
+  font-size: 24px;
+}
+
+.section3 h2 {
+  color: darkred;
+  font-size: 24px;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  height: auto;
+}
