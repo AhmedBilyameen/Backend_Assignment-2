@@ -6,6 +6,7 @@ body {
 nav {
   background-color: navy;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 nav a {
@@ -23,6 +24,8 @@ section {
   margin-bottom: 20px;
   padding: 20px;
   border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
 }
 
 .section1 {
@@ -63,11 +66,12 @@ button {
   padding: 10px;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 img {
   display: block;
   margin: 10px auto;
-  width: 200px;
-  height: auto;
+  width:500px;
+  height: 400px;
 }
